@@ -1,0 +1,58 @@
+body,h1,h2{
+	
+	margin:0;
+}
+
+header
+{
+	background-color:red;
+	text-align:center;
+}
+
+header h1{
+	
+	font-size:40px
+}
+
+nav
+{
+	background-color:#ff9a00;
+	color:#fff;
+	padding: 10px 0 10px 0
+}
+
+main
+{
+	background-color:green;
+	padding: 10px 0 10px 0;
+}
+
+nav a
+{
+	color:#fff;
+	font-size:25px;
+}
+
+article{	
+	background-color:blue;
+	color:#fff;
+	padding: 20px 0 20px 15px;
+	margin: 0 10px 0 10px
+}
+
+article:nth-child(1){	
+	margin-bottom: 10px
+}
+
+h1{
+	color:#fff;
+}
+
+footer{
+	
+	background-color:#be00ff;
+	font-size:30px;
+	color:#fff;
+	text-align:center;
+	padding: 10px 0 10px 0;
+}
