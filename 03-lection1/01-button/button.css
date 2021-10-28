@@ -1,1 +1,35 @@
 /* Стилизация кнопки */
+.button{
+    margin: 5px;
+    border-radius: 8px;
+    width: 189px;
+    height: 48px;
+    border: 0px;
+    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+}
+.button_primary{
+    background: var(--blue);
+}
+
+.button_secondary{
+    background: var(--purple);
+}
+
+.button_alternate{
+    border: 1px;
+    border-color:#ACB5BD;
+}
+
+.button_primary:disabled{
+    opacity: 0.5;
+}
+
+.button_primary:hover{
+    background-color: var(--hover_primary);
+}
+
+.button_secondary:hover{
+    background-color: var(--hover_primary);
+}
+
+
