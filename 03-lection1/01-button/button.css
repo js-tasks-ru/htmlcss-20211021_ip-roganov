@@ -6,7 +6,7 @@
     transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    color: #ffffff;
+    color: var(--font-color-white);
 
 }
 .button_primary{
@@ -18,35 +18,30 @@
 }
 
 .button_alternate{
-    border-width: 1px !important;
-    border-color:#ACB5BD;
-    color:#495057
+    border-width: 1px;
+    border-color:var(--border-color-alternate);
+    color:var(--font-color-alternate);
 
 }
 
 .button_primary:disabled{
     opacity: 0.5;
-    pointer-events: none
+    pointer-events: none;
 }
 .button_alternate:disabled{
     opacity: 0.5;
-    pointer-events: none
+    pointer-events: none;
 }
 
 .button_secondary:disabled{
     opacity: 0.5;
-    pointer-events: none
+    pointer-events: none;
 }
 
 .button_primary:hover{
     background-color: var(--hover_primary);
 }
 
-
 .button_secondary:hover{
     background-color: var(--hover_primary);
-}
-
-.button_block{
-    margin: 5px;
 }
