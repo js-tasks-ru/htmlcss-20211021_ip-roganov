@@ -1,0 +1,17 @@
+.header{
+    padding:96px 0 77px
+}
+
+
+.header_title{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 64px;
+    letter-spacing: 0em;
+}
+
+.footer_text{
+    max-width: 640px;
+    text-align: center;
+}
