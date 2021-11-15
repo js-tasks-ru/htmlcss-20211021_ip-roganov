@@ -20,6 +20,11 @@
     --secondary: var(--purple);
     --border-color-alternate:#ACB5BD;
     --font-color-alternate:#495057;
+    --chart:#4263EB;
+    --grad1:#E2E6E8;
+    --grad2:#F3F5F5;
+    --grad3:#E3E7EA;
+
 }
 
 * {
