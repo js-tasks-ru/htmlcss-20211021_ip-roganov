@@ -1,0 +1,48 @@
+
+.histogram__container{
+    width: 354px;
+}
+.histogram{
+    border: 1px solid var(--grey-3);
+    border-radius: 8px;
+
+}
+.historam_top{
+    display: flex;
+}
+
+.histogramm_total{
+    flex-grow: 1;
+}
+
+.histogramm_link{
+    margin: 19px 24px 0 0;
+}
+.histogramm_link a{
+    text-decoration: none;
+
+}
+.histogramm_t_text{
+    margin: 16px 0px 6px 24px;
+}
+
+.histogramm_t_value{
+    margin: 0px 0px 39px 24px;
+    font-size: 20px;
+}
+
+.histogram_bottom{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-end;
+    height: 50px;
+    margin: 0px 29px 24px 26px;
+}
+
+.histogram_chart{
+    flex-basis: 9px;
+    flex-grow: 1;
+    background: var(--chart);
+    margin-left: 1px;
+    margin-right: 1px;
+}
